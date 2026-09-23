@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  imports: [],
   selector: 'app-history',
-  styleUrl: './history.scss',
+  imports: [RouterLink],
   templateUrl: './history.html',
+  styleUrl: './history.scss',
 })
 export class History {}

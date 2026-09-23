@@ -1,0 +1,131 @@
+.history {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f1e8;
+  color: #4e342e;
+  font-family: serif;
+}
+
+.history-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h2 {
+  margin: 0 0 20px;
+  text-align: center;
+  color: #4e342e;
+  letter-spacing: 0.05em;
+}
+
+h4 {
+  margin: 30px 0 20px;
+  text-align: center;
+  color: #4e342e;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.content-section {
+  padding: 30px;
+  background-color: white;
+  border: 2px solid #d7ccc8;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 25px 0;
+  padding: 0 20px;
+  color: #5d4037;
+  font-family: Georgia, serif;
+  font-size: 1.15em;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+ul {
+  margin: 25px 20px 25px 40px;
+  padding: 20px 30px;
+  background-color: #f5f1e8;
+  border-radius: 8px;
+  color: #5d4037;
+  line-height: 1.8;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 12px;
+  font-family: Georgia, serif;
+  font-size: 1.15em;
+}
+
+.publications-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: -20px 30px 30px 0;
+}
+
+.publications-btn {
+  padding: 10px 22px;
+  background-color: #6d4c41;
+  color: #fff9e6;
+  border: none;
+  border-radius: 20px;
+  font-family: serif;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.publications-btn:hover {
+  background-color: #4e342e;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .history-content {
+    padding: 20px;
+  }
+
+  .content-section {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  p {
+    padding: 0;
+    font-size: 1.05em;
+    text-align: left;
+    text-indent: 1em;
+  }
+
+  ul {
+    margin: 20px 0;
+    padding: 15px 20px;
+  }
+
+  li {
+    font-size: 1.05em;
+  }
+
+  .publications-button-container {
+    justify-content: center;
+    margin: 0 0 30px;
+  }
+}
