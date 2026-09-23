@@ -1,1 +1,51 @@
-<p>publications works!</p>
+<main class="publications">
+  <div class="publications-content">
+
+    <h2>Publicații</h2>
+
+    <div class="category-selector">
+      <button
+        [class.active]="selectedCategory === 'arhivaSomesana'"
+        (click)="switchCategory('arhivaSomesana')">
+        Arhiva Someșană
+      </button>
+
+      <button
+        [class.active]="selectedCategory === 'reviste'"
+        (click)="switchCategory('reviste')">
+        Reviste
+      </button>
+    </div>
+
+    <div
+      class="publication-section"
+      *ngIf="selectedCategory === 'arhivaSomesana'">
+
+      <h3>Arhiva Someșană</h3>
+
+      <p>
+        Colecție de articole istorice și documente despre regiunea Someșană.
+      </p>
+
+      <div class="publications-grid">
+        <!-- Imaginile vor fi adăugate ulterior -->
+      </div>
+    </div>
+
+    <div
+      class="publication-section"
+      *ngIf="selectedCategory === 'reviste'">
+
+      <h3>Reviste</h3>
+
+      <p>
+        Colecție de reviste istorice.
+      </p>
+
+      <div class="publications-grid">
+        <!-- Imaginile vor fi adăugate ulterior -->
+      </div>
+    </div>
+
+  </div>
+</main>

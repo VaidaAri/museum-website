@@ -65,35 +65,6 @@ li {
   font-size: 1.15em;
 }
 
-.publications-button-container {
-  display: flex;
-  justify-content: flex-end;
-  margin: -20px 30px 30px 0;
-}
-
-.publications-btn {
-  padding: 10px 22px;
-  background-color: #6d4c41;
-  color: #fff9e6;
-  border: none;
-  border-radius: 20px;
-  font-family: serif;
-  font-size: 1em;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition:
-    background-color 0.3s ease,
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.publications-btn:hover {
-  background-color: #4e342e;
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
 
 @media (max-width: 768px) {
   .history-content {
@@ -124,8 +95,4 @@ li {
     font-size: 1.05em;
   }
 
-  .publications-button-container {
-    justify-content: center;
-    margin: 0 0 30px;
-  }
 }
