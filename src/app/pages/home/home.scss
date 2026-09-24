@@ -1,0 +1,142 @@
+.home {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f1e8;
+  color: #4e342e;
+  font-family: serif;
+}
+
+.home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.welcome-section {
+  margin-bottom: 40px;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #d7ccc8;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h2 {
+  margin: 0 0 15px;
+  color: #4e342e;
+  letter-spacing: 0.05em;
+}
+
+.welcome-section p {
+  margin: 0;
+  color: #5d4037;
+  font-family: Georgia, serif;
+  font-size: 1.15em;
+  line-height: 1.8;
+}
+
+.explore-section {
+  margin-bottom: 40px;
+}
+
+.explore-section h3,
+.news-section h3 {
+  margin: 0 0 25px;
+  text-align: center;
+  color: #4e342e;
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+}
+
+.nav-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.nav-card {
+  padding: 30px 25px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #d7ccc8;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.nav-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.nav-card-icon {
+  margin-bottom: 15px;
+  font-size: 2.5em;
+}
+
+.nav-card h4 {
+  margin: 0 0 12px;
+  color: #4e342e;
+  font-size: 1.2rem;
+}
+
+.nav-card p {
+  margin: 0;
+  color: #5d4037;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+}
+
+.news-section {
+  padding: 30px;
+  background-color: white;
+  border: 2px solid #d7ccc8;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.news-placeholder {
+  padding: 25px;
+  text-align: center;
+  background-color: #f5f1e8;
+  border-radius: 10px;
+}
+
+.news-placeholder p {
+  margin: 0;
+  color: #5d4037;
+  font-family: Georgia, serif;
+  font-size: 1.05em;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    padding: 20px;
+  }
+
+  .welcome-section,
+  .news-section {
+    padding: 20px;
+  }
+
+  .welcome-section h2 {
+    font-size: 1.8em;
+  }
+
+  .welcome-section p {
+    font-size: 1.05em;
+  }
+
+  .nav-cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-card {
+    padding: 25px 20px;
+  }
+}
