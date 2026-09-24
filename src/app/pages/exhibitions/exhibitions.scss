@@ -1,0 +1,54 @@
+.exhibitions {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f1e8;
+  color: #4e342e;
+  font-family: serif;
+}
+
+.exhibitions-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h2 {
+  margin: 0 0 30px;
+  text-align: center;
+  color: #4e342e;
+  letter-spacing: 0.05em;
+}
+
+.exhibitions-section {
+  padding: 30px;
+  background-color: white;
+  border: 2px solid #d7ccc8;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.exhibitions-section h3 {
+  margin-top: 0;
+  text-align: center;
+  color: #4e342e;
+}
+
+.exhibitions-section p {
+  margin: 0;
+  text-align: center;
+  color: #5d4037;
+  font-family: Georgia, serif;
+  font-size: 1.15em;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .exhibitions-content {
+    padding: 20px;
+  }
+
+  .exhibitions-section {
+    padding: 20px;
+  }
+}
